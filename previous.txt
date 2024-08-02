@@ -1,1 +1,1 @@
-onSubmit={currentStep === totalSteps -1 ? handleSubmit : (e) => e.preventDefault()}h
+onSubmit={currentStep === totalSteps -1 ? handleSubmit : (e) => e.preventDefault()}hs
