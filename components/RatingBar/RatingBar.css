@@ -1,0 +1,21 @@
+.rating-bar {
+    display: flex;
+    height: 20px;
+    width: 120px; /* Adjusted width for better visual appearance */
+    /* perspective: 1000px; Add perspective for a 3D effect */
+  }
+  
+  .rating-segment {
+    flex: 1;
+    height: 100%;
+    border: 1px solid #00cc8e;
+    margin-right: 2px;
+    transform-origin: bottom; /* Transform around the bottom edge */
+    transform: skewX(145deg);; /* Add rotation and skew for tilt effect */
+    position: relative;
+  }
+  
+  .rating-segment:last-child {
+    margin-right: 0;
+  }
+  

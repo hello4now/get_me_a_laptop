@@ -1,0 +1,348 @@
+.laptopnumber{
+  height: fit-content;
+  width: 100%;
+  background-color: #121314;
+}
+.page2{
+  background-color: #a3d9ff;
+  height: 470px;
+  width: 99%;
+  padding: 8px;
+  margin: 0px auto;
+  margin-top: 10px;
+  margin-bottom: 18px;
+  display: flex;
+  box-shadow: 7px 7px #1669b2;
+  border-radius: 12px;
+  font-family: "Nanum Gothic Coding", monospace;
+  overflow-x: scroll;
+}
+
+body{
+  background-color: #121314;
+}
+
+.dabba1{
+  width: 28%;
+  border: 4px solid;
+  background-color: whitesmoke;
+  border-radius: 10px;
+  box-shadow: #1669b2;
+  border-color: white;
+  margin: 10px;
+}
+
+.laptopinfo{
+  display: flex;
+  border-bottom: 4px solid;
+  border-color: white;
+}
+
+.dabba2{
+  width: 30%;
+  border: 4px solid;
+  background-color: whitesmoke;
+  border-radius: 10px;
+  box-shadow: #1669b2;
+  border-color: white;
+  margin: 10px;
+  display: block;
+}
+
+.laptopimg{
+  width: 45%;
+  margin: 6px;
+  height: 156.825px;
+}
+
+.laptopbox{
+
+  margin: 9px;
+  display: flex;
+  justify-content: center;
+}
+
+
+
+.buylinks span{
+  margin: 2px;
+}
+
+.user_ratings{
+  background-color: whitesmoke;
+  height: 56%;
+
+}
+
+.overall_rating{
+  height: 50%;
+}
+
+.indi_rating{
+  height: 50%;
+}
+
+.indi_rating img{
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
+.spec-sheet-heading{
+  text-align: center;
+  border-bottom: 2px solid rgb(201, 201, 201);
+  border-radius: 5px;
+  padding: 3%;
+  margin-left: 2%;
+  margin-right: 2%;
+
+}
+
+.dabba2 .spec_sheet{
+  height: 78%;
+  overflow-y: scroll;
+  overflow-x: hidden;
+}
+
+.spec_sheet ul{
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.spec_sheet ul li{
+  margin: 5%;
+}
+
+.dabba3{
+  width: 40%;
+  border: 4px solid;
+  background-color: whitesmoke;
+  border-radius: 10px;
+  box-shadow: #1669b2;
+  border-color: white;
+  margin: 10px;
+  height: 95%; /* Ensure full height */
+}
+
+.comparisonchart, .pricecomparisonchart{
+  height: 100%; /* Ensure full height */
+}
+
+.toggle-switch {
+  display: flex;
+  justify-content: center;
+  margin: 10px;
+}
+
+.toggle-switch button {
+  padding: 10px 20px;
+  margin: 0 5px;
+  cursor: pointer;
+  border: none;
+  background-color: #a3d9ff;
+
+  color: rgb(0, 0, 0);
+  border-radius: 5px;
+  box-shadow: 4px 4px rgb(0, 0, 0);
+}
+
+.toggle-switch button.active {
+  background-color: #1669b2;
+  color: whitesmoke;
+  transition: 200ms ;
+
+  box-shadow: 0px 0px;
+  
+}
+
+@media only screen and (max-width: 768px){
+  .page2{
+    display: block;
+    height: 100%;
+    /* width: f; */
+    position: relative;
+    overflow: hidden;
+    margin-left: 18px;
+    width: 90%;
+  }
+  .laptopname{
+    align-items: center;
+    /* position: relative; */
+    display: flex;
+    font-size: 15px;
+    justify-content: center;
+  }
+  .dabba1{
+    width: 94%;
+    height: 30%;
+    display: flex;
+    overflow: scroll;
+    flex-direction: column;
+  }
+
+  .dabba1 .laptopinfo{
+    /* margin-right: 9%; */
+    border: 0px;
+    width: fit-content;
+  }
+  .total_reviews{
+    font-size: 10px;
+    /* width: 35%; */
+  }
+  .circular_preview{
+    width: 100%;
+  }
+  
+  .buylinks{
+    width: 30%;
+  }
+  .user_ratings{
+    margin-top: 5%;
+    margin-bottom: 5%;
+  }
+  .laptop{
+    display: flex;
+    border-bottom: 4px solid;
+    border-color: white;
+  }
+  .laptopimg{
+    width: 100%;
+    
+  }
+
+  .dabba2{
+    width: 94%;
+    max-height: 50vh;
+    overflow: scroll;
+  }
+
+  
+
+  .dabba3{
+    width: 94%;
+    height: 37vh;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+    
+  }
+  .comparisonchart, .pricecomparisonchart{
+    transform: scale(0.44);
+    position: relative;
+    bottom: 15%;
+    
+    width: fit-content;
+    height: fit-content;   
+    /* overflow-y: auto; */
+                                                     
+    
+    
+  }
+.overall_rating{
+  transform: scale(0.7);
+}
+
+.rating-value{
+  text-align: center;
+  margin-left: 17px;
+}
+
+
+    
+  
+  
+    
+  
+}
+
+.next a{
+  position: absolute;
+  bottom: 0%;
+  right: 50%;
+  font-size: 25px;
+  text-align: center;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  color: aliceblue;
+  font-style: normal;
+  font-weight: bold;
+  font-variant: small-caps;
+}
+
+.laptopimg{
+  display: flex;
+  height: fit-content;
+}
+
+._ttl{
+  font-weight: 600;
+}
+
+.comparisonchart{
+  padding-top: 4px;
+  height: fit-content;
+  padding-left: 1px;
+  
+  border-radius: 10px;
+  background-color: white;
+  border: 2px solid #f0f0f0;
+  margin: 0px 1%;
+  /* overflow-y: scroll; */
+}
+
+.laptopname{
+  font-size: 17px;
+  font-weight: 700;
+}
+.laptopinfo{
+  display: flex;
+  justify-content: center;
+  height: 59%;
+}
+.overall_rating{
+  /* transform: scale(1.2); */
+  /* width: min-content; */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  /* width: 20%; */
+  
+}
+.rating-value{
+  text-align: center;
+  /* margin-left: 33px; */
+}
+.user_ratings{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  /* height: min-content; */
+  /* justify-content: center; */
+  height: fit-content;
+  margin-top: 3%;
+  width: 100%;
+}
+.circular_preview{
+  width: 100%;
+}
+.total_reviews{
+  width: 35%;
+  display: flex;
+  justify-content: center;
+  /* margin-right: 22px; */
+}
+.buylinks{
+  width: 23%;
+  margin-left: 14px;
+}
+
+.pricecomparisonchart{
+  padding-top: 4px;
+  height: fit-content;
+  padding-left: 1px;
+  border-radius: 10px;
+  background-color: white;
+  border: 2px solid #f0f0f0;
+  margin: 0px 1%;
+
+}
